@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "DiceDataController.h"
+#import "DieView.h"
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *sumLabel;
+@property (weak, nonatomic) IBOutlet DieView *leftDiewView;
 
+@property (weak, nonatomic) IBOutlet DieView *rightDiewView;
 @property (strong, nonatomic) DiceDataController *model;
 
 @end
