@@ -10,4 +10,12 @@
 
 @interface DieView : UIView
 
+#pragma mark Methods
+
+- (void)showDie:(int)num;
+
+#pragma mark Properties
+
+@property (nonatomic, strong) UIImageView *dieImage;
+
 @end
