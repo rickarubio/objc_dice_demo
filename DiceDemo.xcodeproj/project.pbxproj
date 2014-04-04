@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB37A5E718EE2D8F00CECCAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB37A5E618EE2D8F00CECCAD /* Foundation.framework */; };
+		FB37A5E918EE2D8F00CECCAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB37A5E818EE2D8F00CECCAD /* CoreGraphics.framework */; };
+		FB37A5EB18EE2D8F00CECCAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB37A5EA18EE2D8F00CECCAD /* UIKit.framework */; };
+		FB37A5F118EE2D8F00CECCAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB37A5EF18EE2D8F00CECCAD /* InfoPlist.strings */; };
+		FB37A5F318EE2D8F00CECCAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37A5F218EE2D8F00CECCAD /* main.m */; };
+		FB37A5F718EE2D8F00CECCAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37A5F618EE2D8F00CECCAD /* AppDelegate.m */; };
+		FB37A5FA18EE2D8F00CECCAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB37A5F818EE2D8F00CECCAD /* Main.storyboard */; };
+		FB37A5FD18EE2D8F00CECCAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37A5FC18EE2D8F00CECCAD /* ViewController.m */; };
+		FB37A5FF18EE2D8F00CECCAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB37A5FE18EE2D8F00CECCAD /* Images.xcassets */; };
+		FB37A60618EE2D8F00CECCAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB37A60518EE2D8F00CECCAD /* XCTest.framework */; };
+		FB37A60718EE2D8F00CECCAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB37A5E618EE2D8F00CECCAD /* Foundation.framework */; };
+		FB37A60818EE2D8F00CECCAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB37A5EA18EE2D8F00CECCAD /* UIKit.framework */; };
+		FB37A61018EE2D8F00CECCAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB37A60E18EE2D8F00CECCAD /* InfoPlist.strings */; };
+		FB37A61218EE2D8F00CECCAD /* DiceDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37A61118EE2D8F00CECCAD /* DiceDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB37A60918EE2D8F00CECCAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB37A5DB18EE2D8F00CECCAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB37A5E218EE2D8F00CECCAD;
+			remoteInfo = DiceDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB37A5E318EE2D8F00CECCAD /* DiceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB37A5E618EE2D8F00CECCAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB37A5E818EE2D8F00CECCAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB37A5EA18EE2D8F00CECCAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FB37A5EE18EE2D8F00CECCAD /* DiceDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiceDemo-Info.plist"; sourceTree = "<group>"; };
+		FB37A5F018EE2D8F00CECCAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB37A5F218EE2D8F00CECCAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB37A5F418EE2D8F00CECCAD /* DiceDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DiceDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FB37A5F518EE2D8F00CECCAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB37A5F618EE2D8F00CECCAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB37A5F918EE2D8F00CECCAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB37A5FB18EE2D8F00CECCAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB37A5FC18EE2D8F00CECCAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB37A5FE18EE2D8F00CECCAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB37A60418EE2D8F00CECCAD /* DiceDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB37A60518EE2D8F00CECCAD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FB37A60D18EE2D8F00CECCAD /* DiceDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiceDemoTests-Info.plist"; sourceTree = "<group>"; };
+		FB37A60F18EE2D8F00CECCAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB37A61118EE2D8F00CECCAD /* DiceDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiceDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB37A5E018EE2D8F00CECCAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB37A5E918EE2D8F00CECCAD /* CoreGraphics.framework in Frameworks */,
+				FB37A5EB18EE2D8F00CECCAD /* UIKit.framework in Frameworks */,
+				FB37A5E718EE2D8F00CECCAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB37A60118EE2D8F00CECCAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB37A60618EE2D8F00CECCAD /* XCTest.framework in Frameworks */,
+				FB37A60818EE2D8F00CECCAD /* UIKit.framework in Frameworks */,
+				FB37A60718EE2D8F00CECCAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB37A5DA18EE2D8F00CECCAD = {
+			isa = PBXGroup;
+			children = (
+				FB37A5EC18EE2D8F00CECCAD /* DiceDemo */,
+				FB37A60B18EE2D8F00CECCAD /* DiceDemoTests */,
+				FB37A5E518EE2D8F00CECCAD /* Frameworks */,
+				FB37A5E418EE2D8F00CECCAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB37A5E418EE2D8F00CECCAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB37A5E318EE2D8F00CECCAD /* DiceDemo.app */,
+				FB37A60418EE2D8F00CECCAD /* DiceDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB37A5E518EE2D8F00CECCAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB37A5E618EE2D8F00CECCAD /* Foundation.framework */,
+				FB37A5E818EE2D8F00CECCAD /* CoreGraphics.framework */,
+				FB37A5EA18EE2D8F00CECCAD /* UIKit.framework */,
+				FB37A60518EE2D8F00CECCAD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB37A5EC18EE2D8F00CECCAD /* DiceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FB37A5F518EE2D8F00CECCAD /* AppDelegate.h */,
+				FB37A5F618EE2D8F00CECCAD /* AppDelegate.m */,
+				FB37A5F818EE2D8F00CECCAD /* Main.storyboard */,
+				FB37A5FB18EE2D8F00CECCAD /* ViewController.h */,
+				FB37A5FC18EE2D8F00CECCAD /* ViewController.m */,
+				FB37A5FE18EE2D8F00CECCAD /* Images.xcassets */,
+				FB37A5ED18EE2D8F00CECCAD /* Supporting Files */,
+			);
+			path = DiceDemo;
+			sourceTree = "<group>";
+		};
+		FB37A5ED18EE2D8F00CECCAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB37A5EE18EE2D8F00CECCAD /* DiceDemo-Info.plist */,
+				FB37A5EF18EE2D8F00CECCAD /* InfoPlist.strings */,
+				FB37A5F218EE2D8F00CECCAD /* main.m */,
+				FB37A5F418EE2D8F00CECCAD /* DiceDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB37A60B18EE2D8F00CECCAD /* DiceDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB37A61118EE2D8F00CECCAD /* DiceDemoTests.m */,
+				FB37A60C18EE2D8F00CECCAD /* Supporting Files */,
+			);
+			path = DiceDemoTests;
+			sourceTree = "<group>";
+		};
+		FB37A60C18EE2D8F00CECCAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB37A60D18EE2D8F00CECCAD /* DiceDemoTests-Info.plist */,
+				FB37A60E18EE2D8F00CECCAD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB37A5E218EE2D8F00CECCAD /* DiceDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB37A61518EE2D8F00CECCAD /* Build configuration list for PBXNativeTarget "DiceDemo" */;
+			buildPhases = (
+				FB37A5DF18EE2D8F00CECCAD /* Sources */,
+				FB37A5E018EE2D8F00CECCAD /* Frameworks */,
+				FB37A5E118EE2D8F00CECCAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiceDemo;
+			productName = DiceDemo;
+			productReference = FB37A5E318EE2D8F00CECCAD /* DiceDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB37A60318EE2D8F00CECCAD /* DiceDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB37A61818EE2D8F00CECCAD /* Build configuration list for PBXNativeTarget "DiceDemoTests" */;
+			buildPhases = (
+				FB37A60018EE2D8F00CECCAD /* Sources */,
+				FB37A60118EE2D8F00CECCAD /* Frameworks */,
+				FB37A60218EE2D8F00CECCAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB37A60A18EE2D8F00CECCAD /* PBXTargetDependency */,
+			);
+			name = DiceDemoTests;
+			productName = DiceDemoTests;
+			productReference = FB37A60418EE2D8F00CECCAD /* DiceDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB37A5DB18EE2D8F00CECCAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ricardo Rubio";
+				TargetAttributes = {
+					FB37A60318EE2D8F00CECCAD = {
+						TestTargetID = FB37A5E218EE2D8F00CECCAD;
+					};
+				};
+			};
+			buildConfigurationList = FB37A5DE18EE2D8F00CECCAD /* Build configuration list for PBXProject "DiceDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB37A5DA18EE2D8F00CECCAD;
+			productRefGroup = FB37A5E418EE2D8F00CECCAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB37A5E218EE2D8F00CECCAD /* DiceDemo */,
+				FB37A60318EE2D8F00CECCAD /* DiceDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB37A5E118EE2D8F00CECCAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB37A5FF18EE2D8F00CECCAD /* Images.xcassets in Resources */,
+				FB37A5F118EE2D8F00CECCAD /* InfoPlist.strings in Resources */,
+				FB37A5FA18EE2D8F00CECCAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB37A60218EE2D8F00CECCAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB37A61018EE2D8F00CECCAD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB37A5DF18EE2D8F00CECCAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB37A5FD18EE2D8F00CECCAD /* ViewController.m in Sources */,
+				FB37A5F718EE2D8F00CECCAD /* AppDelegate.m in Sources */,
+				FB37A5F318EE2D8F00CECCAD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB37A60018EE2D8F00CECCAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB37A61218EE2D8F00CECCAD /* DiceDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB37A60A18EE2D8F00CECCAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB37A5E218EE2D8F00CECCAD /* DiceDemo */;
+			targetProxy = FB37A60918EE2D8F00CECCAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB37A5EF18EE2D8F00CECCAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB37A5F018EE2D8F00CECCAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FB37A5F818EE2D8F00CECCAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB37A5F918EE2D8F00CECCAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB37A60E18EE2D8F00CECCAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB37A60F18EE2D8F00CECCAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB37A61318EE2D8F00CECCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB37A61418EE2D8F00CECCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB37A61618EE2D8F00CECCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiceDemo/DiceDemo-Prefix.pch";
+				INFOPLIST_FILE = "DiceDemo/DiceDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB37A61718EE2D8F00CECCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiceDemo/DiceDemo-Prefix.pch";
+				INFOPLIST_FILE = "DiceDemo/DiceDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FB37A61918EE2D8F00CECCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DiceDemo.app/DiceDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiceDemo/DiceDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DiceDemoTests/DiceDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FB37A61A18EE2D8F00CECCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DiceDemo.app/DiceDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiceDemo/DiceDemo-Prefix.pch";
+				INFOPLIST_FILE = "DiceDemoTests/DiceDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB37A5DE18EE2D8F00CECCAD /* Build configuration list for PBXProject "DiceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB37A61318EE2D8F00CECCAD /* Debug */,
+				FB37A61418EE2D8F00CECCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB37A61518EE2D8F00CECCAD /* Build configuration list for PBXNativeTarget "DiceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB37A61618EE2D8F00CECCAD /* Debug */,
+				FB37A61718EE2D8F00CECCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB37A61818EE2D8F00CECCAD /* Build configuration list for PBXNativeTarget "DiceDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB37A61918EE2D8F00CECCAD /* Debug */,
+				FB37A61A18EE2D8F00CECCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB37A5DB18EE2D8F00CECCAD /* Project object */;
+}
