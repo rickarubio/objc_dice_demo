@@ -21,6 +21,7 @@
 		FB37A60818EE2D8F00CECCAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB37A5EA18EE2D8F00CECCAD /* UIKit.framework */; };
 		FB37A61018EE2D8F00CECCAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB37A60E18EE2D8F00CECCAD /* InfoPlist.strings */; };
 		FB37A61218EE2D8F00CECCAD /* DiceDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37A61118EE2D8F00CECCAD /* DiceDemoTests.m */; };
+		FB37A61D18EE3C6900CECCAD /* DiceDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37A61C18EE3C6900CECCAD /* DiceDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FB37A60D18EE2D8F00CECCAD /* DiceDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiceDemoTests-Info.plist"; sourceTree = "<group>"; };
 		FB37A60F18EE2D8F00CECCAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FB37A61118EE2D8F00CECCAD /* DiceDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiceDemoTests.m; sourceTree = "<group>"; };
+		FB37A61B18EE3C6900CECCAD /* DiceDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceDataController.h; sourceTree = "<group>"; };
+		FB37A61C18EE3C6900CECCAD /* DiceDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				FB37A5F818EE2D8F00CECCAD /* Main.storyboard */,
 				FB37A5FB18EE2D8F00CECCAD /* ViewController.h */,
 				FB37A5FC18EE2D8F00CECCAD /* ViewController.m */,
+				FB37A61B18EE3C6900CECCAD /* DiceDataController.h */,
+				FB37A61C18EE3C6900CECCAD /* DiceDataController.m */,
 				FB37A5FE18EE2D8F00CECCAD /* Images.xcassets */,
 				FB37A5ED18EE2D8F00CECCAD /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				FB37A5FD18EE2D8F00CECCAD /* ViewController.m in Sources */,
 				FB37A5F718EE2D8F00CECCAD /* AppDelegate.m in Sources */,
+				FB37A61D18EE3C6900CECCAD /* DiceDataController.m in Sources */,
 				FB37A5F318EE2D8F00CECCAD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
